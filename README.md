@@ -33,7 +33,7 @@ Naming: `<target>_<range>.txt`, e.g. `Harman25_12k.txt` is the Harman 2025 MoA t
 
 ## Usage
 
-1. Import a preset into an app that reads Equalizer APO format, such as Equalizer APO on Windows or Peace. Check whether your Android app imports this format.
+1. Import a preset into an app that reads Equalizer APO format, such as Equalizer APO on Windows or Peace.
 2. Set the `Preamp` value as well. It leaves headroom for the boosted bands.
 3. The 12 kHz versions cover the full range of the fit. The 6 kHz versions leave everything above 6 kHz unchanged.
 4. Keep the volume fixed when comparing presets. The presets are loudness-matched using pink noise, so perceived differences of about ±0.5 dB remain.
@@ -59,7 +59,7 @@ Raw data is not included in this repository.
 | Hangout / Crinacle 5128 | https://graph.hangout.audio/iem/5128 | B&K 5128 measurements of AirPods Pro 3 (macOS, Windows, multiple seatings) and the JM-1, Harman 2025, IEF 2025 and SoundGuys targets |
 | headphones.com GraphWorks | [headphones.com](https://headphones.com/) (product slug `airpods-pro-3`) | 16 volume-setting 5128 measurements (measurement ID `cmqtqbexe000004jv2mqogkh0`) |
 
-Deep links to individual entries were not recorded. Search each site for `AirPods Pro 3` or `5128`. Data was retrieved in November 2026.
+Data retrieved in November 2026.
 
 ## Method
 
@@ -78,7 +78,6 @@ Deep links to individual entries were not recorded. Search each site for `AirPod
 ## Limitations
 
 - One measurement condition: stock ear tips, ANC on, about 60% volume. Other tips, ANC off or other volume levels change the response.
-- The 60% volume response is an estimate.
 - Each target reflects a particular choice of tuning.
 - Above 10 kHz the sources disagree substantially, so the corrections there are the least reliable. The 6 kHz versions avoid that region.
 

@@ -33,7 +33,7 @@
 
 ## 使用
 
-1. 把预设导入支持 Equalizer APO 格式的均衡器，例如 Windows 上的 Equalizer APO 或 Peace。Android 上请确认你的 App 能导入这种格式。
+1. 把预设导入支持 Equalizer APO 格式的均衡器，例如 Windows 上的 Equalizer APO 或 Peace。
 2. 同时设置 `Preamp`，为提升的频段留出余量。
 3. 12 kHz 版本覆盖整个拟合范围。6 kHz 版本在 6 kHz 以上保持原样。
 4. 比较预设时保持音量不变。预设按粉红噪声做了等响度对齐，听感上仍有约 ±0.5 dB 的差异。
@@ -59,7 +59,7 @@
 | Hangout / Crinacle 5128 | https://graph.hangout.audio/iem/5128 | AirPods Pro 3 的 B&K 5128 测量（macOS、Windows、多次佩戴），以及 JM-1、Harman 2025、IEF 2025、SoundGuys 目标 |
 | headphones.com GraphWorks | [headphones.com](https://headphones.com/)（产品 slug `airpods-pro-3`） | 16 个音量档的 5128 测量（测量 ID `cmqtqbexe000004jv2mqogkh0`） |
 
-未记录各条目的深层链接，请在站内搜索 `AirPods Pro 3` 或 `5128`。数据拉取于 2026 年 11 月。
+数据拉取于 2026 年 11 月。
 
 ## 方法
 
@@ -78,7 +78,6 @@
 ## 限制
 
 - 只有一种测量条件：原装耳塞套、开降噪、约 60% 音量。换耳塞套、关降噪或改变音量，响应会不同。
-- 60% 音量的响应是估算值。
 - 每条目标都代表一种调音取向。
 - 10 kHz 以上各来源差异很大，这一段的修正最不可靠。6 kHz 版本不处理这一段。
 

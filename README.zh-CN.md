@@ -57,7 +57,7 @@
 |---|---|---|
 | earphonesarchive | https://earphonesarchive.squig.link/ | AirPods Pro 3 的 B&K 5128 测量（iPhone、vol-4、ANC 开/关、通透），以及部分目标 |
 | Hangout / Crinacle 5128 | https://graph.hangout.audio/iem/5128 | AirPods Pro 3 的 B&K 5128 测量（macOS、Windows、多次佩戴），以及 JM-1、Harman 2025、IEF 2025、SoundGuys 目标 |
-| headphones.com GraphWorks | https://headphones.com/（产品 slug `airpods-pro-3`） | 16 个音量档的 5128 测量（测量 ID `cmqtqbexe000004jv2mqogkh0`） |
+| headphones.com GraphWorks | [headphones.com](https://headphones.com/)（产品 slug `airpods-pro-3`） | 16 个音量档的 5128 测量（测量 ID `cmqtqbexe000004jv2mqogkh0`） |
 
 未记录各条目的深层链接，请在站内搜索 `AirPods Pro 3` 或 `5128`。数据拉取于 2026 年 11 月。
 

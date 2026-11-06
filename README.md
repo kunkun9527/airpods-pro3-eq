@@ -57,7 +57,7 @@ Raw data is not included in this repository.
 |---|---|---|
 | earphonesarchive | https://earphonesarchive.squig.link/ | B&K 5128 measurements of AirPods Pro 3 (iPhone, vol-4, ANC on/off, transparency) and some targets |
 | Hangout / Crinacle 5128 | https://graph.hangout.audio/iem/5128 | B&K 5128 measurements of AirPods Pro 3 (macOS, Windows, multiple seatings) and the JM-1, Harman 2025, IEF 2025 and SoundGuys targets |
-| headphones.com GraphWorks | https://headphones.com/ (product slug `airpods-pro-3`) | 16 volume-setting 5128 measurements (measurement ID `cmqtqbexe000004jv2mqogkh0`) |
+| headphones.com GraphWorks | [headphones.com](https://headphones.com/) (product slug `airpods-pro-3`) | 16 volume-setting 5128 measurements (measurement ID `cmqtqbexe000004jv2mqogkh0`) |
 
 Deep links to individual entries were not recorded. Search each site for `AirPods Pro 3` or `5128`. Data was retrieved in November 2026.
 

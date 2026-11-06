@@ -10,9 +10,6 @@
 
 每张图包含：估计测量（黑）、目标曲线（灰色虚线）、6 kHz 版 EQ 后的响应（红）、12 kHz 版 EQ 后的响应（蓝），以及 EQ 曲线和理想修正（目标 − 测量）。
 
-### LMG 0.6
-![LMG 0.6 拟合](plots/fit_LMG06.png)
-
 ### JM-1 −10 dB tilt
 ![JM-1 −10 dB tilt 拟合](plots/fit_JM1-10dB.png)
 

@@ -10,9 +10,6 @@ The measurement is an estimate of the response at about 60% volume, combined fro
 
 Each plot shows the estimated measurement (black), the target (dashed grey), the response after EQ at 6 kHz (red) and 12 kHz (blue), and the EQ curves with the ideal correction (target − measurement).
 
-### LMG 0.6
-![LMG 0.6 fit](plots/fit_LMG06.png)
-
 ### JM-1 −10 dB tilt
 ![JM-1 -10 dB tilt fit](plots/fit_JM1-10dB.png)
 

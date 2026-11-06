@@ -47,11 +47,9 @@ Naming: `<target>_<range>.txt`, e.g. `Harman25_12k.txt` is the Harman 2025 MoA t
 | `IEF25_*` | IEF Preference 2025 | Preference version of JM-1 with more bass and less treble |
 | `SoundGuys_*` | SoundGuys | SoundGuys 5128 target |
 
-The target data belongs to its publishers. This repository contains only the fitted PEQ parameters.
+The target data belongs to its publishers.
 
 ## Data sources
-
-Raw data is not included in this repository.
 
 | Source | URL | Used for |
 |---|---|---|
@@ -68,12 +66,6 @@ Data retrieved in November 2026.
 - **Filters:** one low shelf and eight peaking filters. The EQ is 0 dB above the fit range.
 - **Regularisation:** a squared penalty of 0.3 per dB of gain. After fitting, duplicate filters (same frequency and Q) are merged and the remaining filters are refitted once.
 - **Error:** RMS error inside the fit range is mostly 0.1–0.6 dB. In the 12 kHz versions, the 10–12 kHz band reaches about 0.6 dB.
-
-## Not included
-
-- Raw measurement data and raw target CSVs
-- The MSEB variant (TempoTec V1 bass +2 dB, air +2 dB)
-- V4A DDC files (`.vdc`)
 
 ## Limitations
 

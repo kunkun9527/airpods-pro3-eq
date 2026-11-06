@@ -75,4 +75,4 @@ Data retrieved in November 2026.
 
 ## License
 
-To be decided.
+MIT. See [LICENSE](LICENSE).

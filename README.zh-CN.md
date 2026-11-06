@@ -75,4 +75,4 @@
 
 ## 许可
 
-待定。
+MIT。见 [LICENSE](LICENSE)。

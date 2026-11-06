@@ -2,7 +2,7 @@
 
 **English** | [中文](README.zh-CN.md)
 
-Parametric EQ (PEQ) presets that fit the AirPods Pro 3 response to five target curves: LMG 0.6, JM-1 −10 dB tilt, Harman 2025 MoA, IEF Preference 2025 and SoundGuys. Each target has a 6 kHz and a 12 kHz fit-range version.
+Parametric EQ (PEQ) presets that fit the AirPods Pro 3 response to four target curves: JM-1 −10 dB tilt, Harman 2025 MoA, IEF Preference 2025 and SoundGuys. Each target has a 6 kHz and a 12 kHz fit-range version.
 
 The measurement is an estimate of the response at about 60% volume, combined from several B&K 5128 measurements. It is not a measurement of a single unit.
 
@@ -29,7 +29,7 @@ Each plot shows the estimated measurement (black), the target (dashed grey), the
 | `presets/*.txt` | PEQ filters in Equalizer APO format (`Preamp` + `Filter N: ON ...`) |
 | `plots/fit_*.png` | Fit result for each target |
 
-Naming: `<target>_<range>.txt`, e.g. `LMG06_12k.txt` is the LMG 0.6 target fitted up to 12 kHz.
+Naming: `<target>_<range>.txt`, e.g. `Harman25_12k.txt` is the Harman 2025 MoA target fitted up to 12 kHz.
 
 ## Usage
 
@@ -42,7 +42,6 @@ Naming: `<target>_<range>.txt`, e.g. `LMG06_12k.txt` is the LMG 0.6 target fitte
 
 | Preset prefix | Target | Notes |
 |---|---|---|
-| `LMG06_*` | LMG 0.6 | B&K 5128 target from LTT Labs, leaning toward preference |
 | `JM1-10dB_*` | JM-1 −10 dB tilt | JM-1 5128 target with a −1 dB/octave tilt, darker than plain JM-1 |
 | `Harman25_*` | Harman 2025 MoA | Harman 2025 average target |
 | `IEF25_*` | IEF Preference 2025 | Preference version of JM-1 with more bass and less treble |
@@ -57,7 +56,7 @@ Raw data is not included in this repository.
 | Source | URL | Used for |
 |---|---|---|
 | earphonesarchive | https://earphonesarchive.squig.link/ | B&K 5128 measurements of AirPods Pro 3 (iPhone, vol-4, ANC on/off, transparency) and some targets |
-| Hangout / Crinacle 5128 | https://graph.hangout.audio/iem/5128 | B&K 5128 measurements of AirPods Pro 3 (macOS, Windows, multiple seatings) and the LMG 0.6, JM-1, Harman 2025, IEF 2025 and SoundGuys targets |
+| Hangout / Crinacle 5128 | https://graph.hangout.audio/iem/5128 | B&K 5128 measurements of AirPods Pro 3 (macOS, Windows, multiple seatings) and the JM-1, Harman 2025, IEF 2025 and SoundGuys targets |
 | headphones.com GraphWorks | https://headphones.com/ (product slug `airpods-pro-3`) | 16 volume-setting 5128 measurements (measurement ID `cmqtqbexe000004jv2mqogkh0`) |
 
 Deep links to individual entries were not recorded. Search each site for `AirPods Pro 3` or `5128`. Data was retrieved in November 2026.
@@ -80,7 +79,7 @@ Deep links to individual entries were not recorded. Search each site for `AirPod
 
 - One measurement condition: stock ear tips, ANC on, about 60% volume. Other tips, ANC off or other volume levels change the response.
 - The 60% volume response is an estimate.
-- Each target reflects a particular choice of tuning. What "0.6" in LMG 0.6 refers to has not been publicly confirmed.
+- Each target reflects a particular choice of tuning.
 - Above 10 kHz the sources disagree substantially, so the corrections there are the least reliable. The 6 kHz versions avoid that region.
 
 ## License

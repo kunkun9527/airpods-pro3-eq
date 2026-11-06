@@ -2,7 +2,7 @@
 
 [English](README.md) | **中文**
 
-把 AirPods Pro 3 的频响拟合到五条目标曲线上得到的参数式均衡器（PEQ）预设：LMG 0.6、JM-1 −10 dB tilt、Harman 2025 MoA、IEF Preference 2025 和 SoundGuys。每条目标各有 6 kHz 和 12 kHz 两个拟合上限版本。
+把 AirPods Pro 3 的频响拟合到四条目标曲线上得到的参数式均衡器（PEQ）预设：JM-1 −10 dB tilt、Harman 2025 MoA、IEF Preference 2025 和 SoundGuys。每条目标各有 6 kHz 和 12 kHz 两个拟合上限版本。
 
 测量曲线是多家 B&K 5128 数据综合出的约 60% 音量响应估算，不是对单副耳机的实测。
 
@@ -29,7 +29,7 @@
 | `presets/*.txt` | PEQ 滤波器，Equalizer APO 格式（`Preamp` + `Filter N: ON ...`） |
 | `plots/fit_*.png` | 每条目标的拟合结果 |
 
-命名规则：`<目标>_<上限>.txt`，例如 `LMG06_12k.txt` 是 LMG 0.6 目标拟合到 12 kHz。
+命名规则：`<目标>_<上限>.txt`，例如 `Harman25_12k.txt` 是 Harman 2025 MoA 目标拟合到 12 kHz。
 
 ## 使用
 
@@ -42,7 +42,6 @@
 
 | 预设前缀 | 目标 | 说明 |
 |---|---|---|
-| `LMG06_*` | LMG 0.6 | LTT Labs 的 B&K 5128 目标，偏向偏好取向 |
 | `JM1-10dB_*` | JM-1 −10 dB tilt | JM-1 5128 目标加 −1 dB/oct 倾斜，比原版 JM-1 更暗 |
 | `Harman25_*` | Harman 2025 MoA | Harman 2025 年的平均目标 |
 | `IEF25_*` | IEF Preference 2025 | JM-1 的偏好版，低频更多，高频更少 |
@@ -57,7 +56,7 @@
 | 来源 | 网址 | 用途 |
 |---|---|---|
 | earphonesarchive | https://earphonesarchive.squig.link/ | AirPods Pro 3 的 B&K 5128 测量（iPhone、vol-4、ANC 开/关、通透），以及部分目标 |
-| Hangout / Crinacle 5128 | https://graph.hangout.audio/iem/5128 | AirPods Pro 3 的 B&K 5128 测量（macOS、Windows、多次佩戴），以及 LMG 0.6、JM-1、Harman 2025、IEF 2025、SoundGuys 目标 |
+| Hangout / Crinacle 5128 | https://graph.hangout.audio/iem/5128 | AirPods Pro 3 的 B&K 5128 测量（macOS、Windows、多次佩戴），以及 JM-1、Harman 2025、IEF 2025、SoundGuys 目标 |
 | headphones.com GraphWorks | https://headphones.com/（产品 slug `airpods-pro-3`） | 16 个音量档的 5128 测量（测量 ID `cmqtqbexe000004jv2mqogkh0`） |
 
 未记录各条目的深层链接，请在站内搜索 `AirPods Pro 3` 或 `5128`。数据拉取于 2026 年 11 月。
@@ -80,7 +79,7 @@
 
 - 只有一种测量条件：原装耳塞套、开降噪、约 60% 音量。换耳塞套、关降噪或改变音量，响应会不同。
 - 60% 音量的响应是估算值。
-- 每条目标都代表一种调音取向。LMG 0.6 中"0.6"的具体含义没有公开确认。
+- 每条目标都代表一种调音取向。
 - 10 kHz 以上各来源差异很大，这一段的修正最不可靠。6 kHz 版本不处理这一段。
 
 ## 许可

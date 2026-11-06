@@ -1,0 +1,11 @@
+# AirPods Pro 3 (estimated ~60% volume, 5128) -> target: IEF Preference 2025
+# fit range: 20 Hz - 6 kHz (EQ neutral above)
+# no MSEB; loudness-matched presets need the preamp shown below
+Preamp: -5.6 dB
+Filter 1: ON LSC Fc 111 Hz Gain -2.0 dB Q 1.00
+Filter 2: ON PK Fc 239 Hz Gain -2.0 dB Q 2.34
+Filter 3: ON PK Fc 401 Hz Gain -1.6 dB Q 2.71
+Filter 4: ON PK Fc 1052 Hz Gain -1.1 dB Q 4.00
+Filter 5: ON PK Fc 1429 Hz Gain 2.7 dB Q 1.79
+Filter 6: ON PK Fc 3515 Hz Gain 4.4 dB Q 1.70
+Filter 7: ON PK Fc 5617 Hz Gain -4.7 dB Q 4.00

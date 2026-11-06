@@ -1,0 +1,10 @@
+# Raw measurements and third-party target data are NOT redistributed in this repo.
+raw/
+clean/
+targets/
+measurements/
+*.csv
+*.json
+*.vdc
+MSEB*
+*_MSEB*

@@ -1,0 +1,13 @@
+# AirPods Pro 3 (estimated ~60% volume, 5128) -> target: LMG 0.6
+# fit range: 20 Hz - 12 kHz (EQ neutral above)
+# no MSEB; loudness-matched presets need the preamp shown below
+Preamp: -5.8 dB
+Filter 1: ON LSC Fc 70 Hz Gain -4.9 dB Q 0.75
+Filter 2: ON PK Fc 146 Hz Gain 1.5 dB Q 2.29
+Filter 3: ON PK Fc 265 Hz Gain -1.7 dB Q 0.97
+Filter 4: ON PK Fc 1482 Hz Gain 2.3 dB Q 2.50
+Filter 5: ON PK Fc 3277 Hz Gain 2.3 dB Q 3.91
+Filter 6: ON PK Fc 4217 Hz Gain 4.3 dB Q 2.25
+Filter 7: ON PK Fc 6173 Hz Gain -2.8 dB Q 3.38
+Filter 8: ON PK Fc 9421 Hz Gain -1.6 dB Q 3.10
+Filter 9: ON PK Fc 10784 Hz Gain 2.9 dB Q 4.00

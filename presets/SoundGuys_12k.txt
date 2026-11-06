@@ -1,0 +1,13 @@
+# AirPods Pro 3 (estimated ~60% volume, 5128) -> target: SoundGuys
+# fit range: 20 Hz - 12 kHz (EQ neutral above)
+# no MSEB; loudness-matched presets need the preamp shown below
+Preamp: -5.5 dB
+Filter 1: ON LSC Fc 89 Hz Gain -2.1 dB Q 1.00
+Filter 2: ON PK Fc 24 Hz Gain -2.6 dB Q 0.50
+Filter 3: ON PK Fc 147 Hz Gain 1.4 dB Q 2.40
+Filter 4: ON PK Fc 338 Hz Gain -1.4 dB Q 0.84
+Filter 5: ON PK Fc 1482 Hz Gain 2.2 dB Q 2.03
+Filter 6: ON PK Fc 3760 Hz Gain 4.8 dB Q 1.63
+Filter 7: ON PK Fc 5858 Hz Gain -3.9 dB Q 3.13
+Filter 8: ON PK Fc 7130 Hz Gain -2.5 dB Q 1.18
+Filter 9: ON PK Fc 10593 Hz Gain 3.6 dB Q 2.64
